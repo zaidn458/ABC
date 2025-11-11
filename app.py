@@ -8,7 +8,7 @@ import cv2
 app = Flask(__name__)
 
 # Folder for uploads and outputs
-app.config['UPLOAD_FOLDER'] = 'static/uploads'
+app.config['PLOAD_FOLDER'] = 'static/uploads'
 os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 
 # Face detector (Haar cascade)
